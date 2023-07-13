@@ -1,0 +1,24 @@
+.btn {
+  width: 80px;
+  height: 80px;
+  flex: 1;
+  font-size: 30px;
+  background-color: rgb(224, 224, 224);
+  border: 1px solid lightgray;
+}
+
+.btn:hover {
+  background-color: rgb(194, 191, 191);
+}
+
+.zero-btn {
+  flex: 2;
+}
+
+.colorful {
+  background-color: rgb(245, 145, 62);
+}
+
+.colorful:hover {
+  background-color: rgb(216, 111, 25);
+}
