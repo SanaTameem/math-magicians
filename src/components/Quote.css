@@ -1,0 +1,37 @@
+.quote-container {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  align-items: center;
+  width: 70%;
+  gap: 54px;
+}
+
+.page-loading {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+}
+
+.loading-icon {
+  width: 150px;
+  height: 100px;
+}
+
+.sad-img {
+  width: 100px;
+  height: 100px;
+}
