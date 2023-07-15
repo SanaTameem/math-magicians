@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+}
+
+.quote-title {
+  font-size: 35px;
+  text-align: center;
+}
