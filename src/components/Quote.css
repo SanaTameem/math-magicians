@@ -36,8 +36,9 @@
   width: 100px;
   height: 100px;
 }
-.double-quotes{
-    font-size: 196px;
-    font-family: auto;
-    color: #000;
+
+.double-quotes {
+  font-size: 196px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000;
 }
