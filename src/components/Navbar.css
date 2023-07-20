@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 40px;
+    color: #000;
+}
+
+.nav-contianer{
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.nav-title{
+    font-size: 50px;
+}
+.nav-item{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.bordered{
+    padding: 0 10px;
+   border-left: 2px solid #888;
+   border-right: 2px solid #888;
+} 
