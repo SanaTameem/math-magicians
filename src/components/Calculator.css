@@ -1,9 +1,19 @@
+.text-calc-container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 80px;
+}
+.text-calc-container h2{
+  color: #888;
+  font-size: 35px;
+}
 .calculator {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 
 .input {
