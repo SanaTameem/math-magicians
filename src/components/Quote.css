@@ -10,6 +10,7 @@
   align-items: center;
   width: 70%;
   gap: 54px;
+  color: #888;
 }
 
 .page-loading {
@@ -34,4 +35,9 @@
 .sad-img {
   width: 100px;
   height: 100px;
+}
+.double-quotes{
+    font-size: 196px;
+    font-family: auto;
+    color: #000;
 }
