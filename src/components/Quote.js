@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './Quote.css';
-import LoadingIcon from './Loading_icon.gif';
-import Sad from './sad.png';
-import './Navbar.css';
+import '../styles/Quote.css';
+import LoadingIcon from '../assets/Loading_icon.gif';
+import Sad from '../assets/sad.png';
+import '../styles/Navbar.css';
 
 function Quote() {
   // state
@@ -53,15 +53,13 @@ function Quote() {
     );
   }
   return (
-    <>
+    <div className="quote-container">
       <div className="double-quotes">&ldquo;</div>
-      <div className="quote-container">
-        <div className="quote-text">{data.quote}</div>
-        <span>
-          {data.author}
-        </span>
-      </div>
-    </>
+      <div className="quote-text">{data.quote}</div>
+      <span>
+        {data.author}
+      </span>
+    </div>
   );
 }
 

@@ -1,5 +1,4 @@
 .quote-container {
-  margin: 20px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,8 +8,8 @@
   font-weight: 600;
   align-items: center;
   width: 70%;
-  gap: 54px;
-  color: #888;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 35px 20px;
 }
 
 .page-loading {
@@ -38,7 +37,30 @@
 }
 
 .double-quotes {
-  font-size: 196px;
+  font-size: 170px;
   font-family: 'Times New Roman', Times, serif;
   color: #000;
+}
+
+.quote-text {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .quote-container {
+    margin: 20px 0 100px 0;
+  }
+
+  .quote-text {
+    font-size: 17px;
+  }
+
+  .page-loading {
+    font-size: 31px;
+    gap: 30px;
+  }
+
+  .quote-text span {
+    font-size: 18px;
+  }
 }
