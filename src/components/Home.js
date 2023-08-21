@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import '../styles/Home.css';
 
 function Home() {
   return (
@@ -26,7 +26,7 @@ function Home() {
         about the magic of numbers, you&apos;ll find an abundance of captivating
         content to quench your thirst for knowledge.
       </p>
-      <p>
+      <p className="second-para">
         Authoritatively reconceptualize value-added niches through
         out-of-the-box deliverables. Distinctively productize state of the art
         strategic theme areas for future-proof benefits. Appropriately brand team

@@ -1,12 +1,14 @@
 .text-calc-container {
   display: flex;
   justify-content: space-around;
-  width: 100%;
-  padding: 0 80px;
+  align-items: center;
+  width: 70%;
+  color: #000;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .text-calc-container h2 {
-  color: #888;
+  color: #000;
   font-size: 35px;
 }
 
@@ -33,4 +35,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .text-calc-container {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-bottom: 100px;
+  }
+
+  .calculator {
+    padding-bottom: 30px;
+    margin-top: 34px;
+  }
 }

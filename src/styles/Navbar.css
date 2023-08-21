@@ -6,6 +6,7 @@
   height: 90px;
   padding: 40px;
   color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .nav-contianer {
@@ -29,4 +30,17 @@
   padding: 0 10px;
   border-left: 2px solid #888;
   border-right: 2px solid #888;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .nav-title {
+    font-size: 34px;
+  }
 }
