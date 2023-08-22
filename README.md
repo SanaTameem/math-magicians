@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h1><b>Math Magicians</b></h1>
+  <h1><b>Math Magicians📚🔮</b></h1>
 
 </div>
 
